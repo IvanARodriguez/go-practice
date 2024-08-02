@@ -75,7 +75,7 @@ func main() {
 	isMarried := true
 
 	fmt.Printf("Hello %s, you are %v years old and is %v that you are married", fullName, age, isMarried)
-}
+
 ```
 
 Run your program:
@@ -89,39 +89,44 @@ go run variables.go
 Create a directory for this example:
 
 ```sh
-mkdir control_structures
-cd control_structures
-Create control_structures.go:
+mkdir control
+cd control
+touch control.go:
 ```
 
 ```go
-// control_structures.go
+// control.go
 package main
 
 import "fmt"
 
 func main() {
-x := 10
-if x > 5 {
-fmt.Println("x is greater than 5")
-} else {
-fmt.Println("x is less than or equal to 5")
-}
+	age := 19
 
-    for i := 0; i < 5; i++ {
-        fmt.Println(i)
-    }
+	// If-Else
+	if age > 18 {
+		fmt.Println("You are old enough for an alcoholic drink")
+	} else {
+		fmt.Println("Sorry, you are too young")
+	}
 
-    day := "Tuesday"
-    switch day {
-    case "Monday":
-        fmt.Println("It's Monday")
-    case "Tuesday":
-        fmt.Println("It's Tuesday")
-    default:
-        fmt.Println("It's some other day")
-    }
+	// For-loop
+	for i := 1; i <= 5; i++ {
+		fmt.Printf("I am iteration # %v", i)
+		fmt.Println()
+	}
 
+	day := "Tuesday"
+
+  // Switch statements
+	switch day {
+	case "Monday":
+		fmt.Println("It's a boring Monday")
+	case "Tuesday":
+		fmt.Println("We are making progress, it's Tuesday")
+	default:
+		fmt.Println("It's another dat, hopefully weekend")
+	}
 }
 ```
 
