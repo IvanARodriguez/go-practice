@@ -85,16 +85,18 @@ d := 20.5
 
 Run your program:
 
-sh
+```sh
 go run variables.go 3. Control Structures
 Create a directory for this example:
+```
 
-sh
+```sh
 mkdir control_structures
 cd control_structures
 Create control_structures.go:
+```
 
-go
+```go
 // control_structures.go
 package main
 
@@ -123,18 +125,22 @@ fmt.Println("x is less than or equal to 5")
     }
 
 }
+```
+
 Run your program:
 
-sh
+```sh
 go run control_structures.go 4. Functions
 Create a directory for this example:
+```
 
-sh
+```sh
 mkdir functions
 cd functions
 Create functions.go:
+```
 
-go
+```go
 // functions.go
 package main
 
@@ -156,18 +162,22 @@ fmt.Println("Sum:", sum)
     fmt.Println("Swapped:", a, b)
 
 }
+```
+
 Run your program:
 
-sh
+```sh
 go run functions.go 5. Structs and Methods
 Create a directory for this example:
+```
 
-sh
+```sh
 mkdir structs
 cd structs
 Create structs.go:
+```
 
-go
+```go
 // structs.go
 package main
 
@@ -192,18 +202,22 @@ person := Person{firstName: "John", lastName: "Doe", age: 30}
     fmt.Println("Full Name:", person.fullName())
 
 }
+```
+
 Run your program:
 
-sh
+```sh
 go run structs.go 6. Packages
 Create a directory for your package:
+```
 
-sh
+```sh
 mkdir mypackage
 cd mypackage
 Create mypackage.go:
+```
 
-go
+```go
 // mypackage/mypackage.go
 package mypackage
 
@@ -212,9 +226,11 @@ import "fmt"
 func Hello() {
 fmt.Println("Hello from mypackage!")
 }
+```
+
 Create main.go to use your package:
 
-go
+```go
 // main.go
 package main
 
@@ -223,19 +239,14 @@ import "mypackage"
 func main() {
 mypackage.Hello()
 }
+```
+
 Run your program:
 
+```
 sh
 go run main.go
 Additional Resources
-Go Documentation
-Go by Example
+```
+
 Happy coding!
-
-css
-
-You can save this content in a `README.md` file in your project directory. It will provide a structure
-
-```
-
-```
