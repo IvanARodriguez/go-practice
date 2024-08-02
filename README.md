@@ -70,16 +70,11 @@ package main
 import "fmt"
 
 func main() {
-var a int = 10
-var b string = "Hello"
-var c bool = true
-d := 20.5
+	age := 33
+	fullName := "Ivan Rodriguez"
+	isMarried := true
 
-    fmt.Println("a =", a)
-    fmt.Println("b =", b)
-    fmt.Println("c =", c)
-    fmt.Println("d =", d)
-
+	fmt.Printf("Hello %s, you are %v years old and is %v that you are married", fullName, age, isMarried)
 }
 ```
 
