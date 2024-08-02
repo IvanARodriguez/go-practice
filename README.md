@@ -23,7 +23,7 @@ go-project/
 └── structs.go
 ```
 
-## Getting Started
+## 1. Getting Started
 
 ### 1. Hello, World!
 
@@ -86,9 +86,12 @@ d := 20.5
 Run your program:
 
 ```sh
-go run variables.go 3. Control Structures
-Create a directory for this example:
+go run variables.go
 ```
+
+## 3. Control Structures
+
+Create a directory for this example:
 
 ```sh
 mkdir control_structures
@@ -130,9 +133,12 @@ fmt.Println("x is less than or equal to 5")
 Run your program:
 
 ```sh
-go run control_structures.go 4. Functions
-Create a directory for this example:
+go run control_structures.go
 ```
+
+## 4. Functions
+
+Create a directory for this example:
 
 ```sh
 mkdir functions
@@ -167,9 +173,12 @@ fmt.Println("Sum:", sum)
 Run your program:
 
 ```sh
-go run functions.go 5. Structs and Methods
-Create a directory for this example:
+go run functions.go
 ```
+
+## 5. Structs and Methods
+
+Create a directory for this example:
 
 ```sh
 mkdir structs
@@ -207,9 +216,12 @@ person := Person{firstName: "John", lastName: "Doe", age: 30}
 Run your program:
 
 ```sh
-go run structs.go 6. Packages
-Create a directory for your package:
+go run structs.go
 ```
+
+## 6. Packages
+
+Create a directory for your package:
 
 ```sh
 mkdir mypackage
@@ -243,10 +255,8 @@ mypackage.Hello()
 
 Run your program:
 
-```
-sh
+```sh
 go run main.go
-Additional Resources
 ```
 
 Happy coding!
